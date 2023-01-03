@@ -2,7 +2,7 @@ from breath_timer import BreathTimer
 
 
 if __name__ == '__main__':
-    print("Welcome to the Breath Tiimer inspired by the Book Breath by James Nestor.\n You can buy it here; https://a.co/d/fDpfxxc")
+    print("Welcome to the Breath Timer ")
     breath_time = input("How many minutes do you want to breath for?: ")
     try:
         breath_time_seconds = int(breath_time)*60
